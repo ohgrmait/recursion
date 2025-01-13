@@ -1,5 +1,23 @@
 # frozen_string_literal: true
 
+def fibs_rec(num)
+  return [0] if num == 1
+  return [0, 1] if num == 2
+
+  fib_arr = fibs_rec(num - 1)
+  fib_arr << (fib_arr[num - 3] + fib_arr[num - 2])
+  fib_arr
+end
+
+p fibs_rec(1)
+p fibs_rec(2)
+p fibs_rec(3)
+p fibs_rec(4)
+p fibs_rec(5)
+p fibs_rec(6)
+p fibs_rec(7)
+p fibs_rec(8)
+
 def fibs(num) # rubocop:disable Metrics/MethodLength
   return [0] if num == 1
   return [0, 1] if num == 2
