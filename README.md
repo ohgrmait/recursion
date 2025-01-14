@@ -32,7 +32,7 @@
 
 ## Acknowledgements
 - Credit for the code for the Fibonacci Sequence goes to [SlySherZ's answer](https://stackoverflow.com/a/36415667) on [Stack Overflow](https://stackoverflow.com/).
-- Credit for the code for the Merge Sort goes to [take U forward's Merge Sort video]((https://youtu.be/ogjf7ORKfd8?t=1238)) on [YouTube](https://www.youtube.com/).
+- Credit for the code for the Merge Sort goes to [take U forward's Merge Sort video](https://youtu.be/ogjf7ORKfd8?t=1238) on [YouTube](https://www.youtube.com/).
 - Credit for README goes to [ritaly's README cheatsheet](https://github.com/ritaly/README-cheatsheet) and [ArjunSaili1's comment](https://github.com/TheOdinProject/curriculum/discussions/25472#discussioncomment-5889343).
 
 ## Contact and Support
