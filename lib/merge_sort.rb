@@ -41,10 +41,3 @@ def merge_sort(arr, low, high)
   merge_sort(arr, mid + 1, high)
   merge(arr, low, mid, high)
 end
-
-arr = [3, 2, 1, 13, 8, 5, 0, 1]
-
-low = 0
-high = arr.length - 1
-
-p merge_sort(arr, low, high)

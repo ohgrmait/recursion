@@ -9,15 +9,6 @@ def fibs_rec(num)
   fib_arr
 end
 
-p fibs_rec(1)
-p fibs_rec(2)
-p fibs_rec(3)
-p fibs_rec(4)
-p fibs_rec(5)
-p fibs_rec(6)
-p fibs_rec(7)
-p fibs_rec(8)
-
 def fibs(num) # rubocop:disable Metrics/MethodLength
   return [0] if num == 1
   return [0, 1] if num == 2
@@ -37,12 +28,3 @@ def fibs(num) # rubocop:disable Metrics/MethodLength
 
   fib_arr
 end
-
-p fibs(1)
-p fibs(2)
-p fibs(3)
-p fibs(4)
-p fibs(5)
-p fibs(6)
-p fibs(7)
-p fibs(8)
